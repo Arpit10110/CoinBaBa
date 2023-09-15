@@ -1,0 +1,83 @@
+.bannerimg {
+  width: 100%;
+  height: 75%;
+  background-size: cover;
+  vertical-align: top;
+}
+.slider-container {
+  width: 100%;
+  height: 75%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sliderIntro {
+  background-color: black;
+  height: 84vh;
+  overflow: hidden;
+}
+.LinkLearn {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.LinksofLean{
+    border: 3px solid #ffd900;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    background-color: #000000;
+    margin: 1rem;
+}
+.LinksofLean a {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.LinksofLean a:hover{
+    color: #ffbb00;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+video{
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.learn{
+  background-color: #fffadd;
+}
+.welcomeIntro {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 3px 3px 10px #ff3939;
+  margin: 1rem;
+  line-break: anywhere;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (width <= 430px) {
+  .bannerimg {
+    height: 100%;
+  }
+  .sliderIntro {
+    background-color: black;
+    height: auto;
+  }
+  video{
+    width: 91%;
+  }
+}

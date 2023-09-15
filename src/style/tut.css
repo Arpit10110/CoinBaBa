@@ -1,0 +1,25 @@
+.tutVideo {
+    width: 45%;
+    height: 26rem;
+}
+.tuthead {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+.tut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+@media only screen and ( width <= 430px) {
+    .tutVideo{
+        width: 80%;
+        height: 12rem;
+    }
+    .tuthead{
+        font-size: 1.2rem;
+    }
+}
