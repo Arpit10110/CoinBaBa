@@ -4,12 +4,12 @@ import "../style/Contact.css"
 const Contact = () => {
   return (
     <div className='Contact' >
-       <form className='form'  action='/'>
-        <input className='inputs' type="text" placeholder='Enter Your Name' required />
-        <input className='inputs' type="text" placeholder='Enter Your Phone no.' required />
-        <input className='inputs' type="text" placeholder='Enter Your E-mail' required />
-        <input className='inputs' type="text" placeholder='Enter The Message' required />
-        <button className='formbtn'>Submit</button>
+       <form className='form'  action='https://formspree.io/f/mpzglrne' method='POST'>
+        <input className='inputs' type="text" name='Name' placeholder='Enter Your Name' required />
+        <input className='inputs' type="text" name='Phoneno' placeholder='Enter Your Phone no.' required />
+        <input className='inputs' type="text" name='Email' placeholder='Enter Your E-mail' required />
+        <input className='inputs' type="text" name='Message' placeholder='Enter The Message' required />
+        <button type='submit' className='formbtn'>Submit</button>
        </form>
     </div>
   )
